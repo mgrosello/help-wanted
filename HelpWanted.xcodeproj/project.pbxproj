@@ -13,6 +13,7 @@
 		1144AEAA1D62C8ED001E2846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1144AEA81D62C8ED001E2846 /* Main.storyboard */; };
 		1144AEAC1D62C8ED001E2846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1144AEAB1D62C8ED001E2846 /* Assets.xcassets */; };
 		1144AEAF1D62C8ED001E2846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1144AEAD1D62C8ED001E2846 /* LaunchScreen.storyboard */; };
+		11552C201D638ACE00F6B51F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11552C1F1D638ACE00F6B51F /* MapKit.framework */; };
 		11FD02A51D63377000ECACF1 /* Sketch 3.7.zip in Resources */ = {isa = PBXBuildFile; fileRef = 11FD02A41D63377000ECACF1 /* Sketch 3.7.zip */; };
 		11FD02A71D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip in Resources */ = {isa = PBXBuildFile; fileRef = 11FD02A61D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip */; };
 		1FE482631D633AD5009A06A1 /* Curriculum.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE482591D633AD5009A06A1 /* Curriculum.png */; };
@@ -38,6 +39,7 @@
 		1144AEAB1D62C8ED001E2846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1144AEAE1D62C8ED001E2846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1144AEB01D62C8ED001E2846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11552C1F1D638ACE00F6B51F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		11FD02A41D63377000ECACF1 /* Sketch 3.7.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Sketch 3.7.zip"; sourceTree = "<group>"; };
 		11FD02A61D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "sketch_v3 KG NOYzip.zip"; sourceTree = "<group>"; };
 		1FE482591D633AD5009A06A1 /* Curriculum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Curriculum.png; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11552C201D638ACE00F6B51F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 		1144AE931D62C8ED001E2846 = {
 			isa = PBXGroup;
 			children = (
+				11552C1F1D638ACE00F6B51F /* MapKit.framework */,
 				1144AE9E1D62C8ED001E2846 /* HelpWanted */,
 				1144AE9D1D62C8ED001E2846 /* Products */,
 			);

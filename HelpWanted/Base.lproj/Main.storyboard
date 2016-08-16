@@ -42,12 +42,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32" y="60"/>
+            <point key="canvasLocation" x="-110" y="-48"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AE7-9C-Bsu">
             <objects>
-                <viewController id="g9G-mD-k44" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="g9G-mD-k44" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kDv-SV-fKL"/>
                         <viewControllerLayoutGuide type="bottom" id="IwS-Bd-nVk"/>
@@ -55,12 +55,58 @@
                     <view key="view" contentMode="scaleToFill" id="iJ9-r8-ddr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="help wanted alargado.png" translatesAutoresizingMaskIntoConstraints="NO" id="C9Q-uk-W7b">
+                                <rect key="frame" x="20" y="72" width="560" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="nRg-kZ-FXY"/>
+                                    <constraint firstAttribute="height" constant="56" id="yOK-nu-SEd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="google maps.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RA8-Jd-vI4">
+                                <rect key="frame" x="98" y="136" width="482" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="nqX-cB-rsC"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="375" id="pcp-xx-S3r"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="publicidad.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wwL-01-VOH">
+                                <rect key="frame" x="20" y="544" width="560" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="3cD-8l-m5o"/>
+                                    <constraint firstAttribute="height" constant="35" id="j0Z-hZ-SkS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="WcS-m3-zvK">
+                                <rect key="frame" x="20" y="136" width="70" height="56"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Curriculum.png" translatesAutoresizingMaskIntoConstraints="NO" id="r2g-on-Csb">
+                                <rect key="frame" x="20" y="210" width="70" height="67"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="jgx-0g-eL8">
+                                <rect key="frame" x="20" y="305" width="70" height="61"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whatss app.png" translatesAutoresizingMaskIntoConstraints="NO" id="xhI-2s-Dp8">
+                                <rect key="frame" x="20" y="478" width="70" height="46"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Linkedin.png" translatesAutoresizingMaskIntoConstraints="NO" id="nqB-OB-D3f">
+                                <rect key="frame" x="20" y="395" width="70" height="61"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="IwS-Bd-nVk" firstAttribute="top" secondItem="wwL-01-VOH" secondAttribute="bottom" constant="5" id="1Xt-6V-lPk"/>
+                            <constraint firstItem="C9Q-uk-W7b" firstAttribute="centerX" secondItem="iJ9-r8-ddr" secondAttribute="centerX" id="TKn-lt-gaR"/>
+                            <constraint firstAttribute="trailing" secondItem="RA8-Jd-vI4" secondAttribute="trailing" constant="19" id="VlB-d4-9Ml"/>
+                            <constraint firstItem="wwL-01-VOH" firstAttribute="centerX" secondItem="iJ9-r8-ddr" secondAttribute="centerX" id="X2V-in-bf8"/>
+                            <constraint firstItem="RA8-Jd-vI4" firstAttribute="top" secondItem="C9Q-uk-W7b" secondAttribute="bottom" constant="20" id="hu0-Wn-xQT"/>
+                            <constraint firstItem="C9Q-uk-W7b" firstAttribute="top" secondItem="kDv-SV-fKL" secondAttribute="bottom" constant="5" id="iaz-30-vaq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YVR-zH-JPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="832" y="60"/>
+            <point key="canvasLocation" x="846" y="-48"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lsr-OS-ALQ">
@@ -78,10 +124,18 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yX-7z-7TT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-780" y="60"/>
+            <point key="canvasLocation" x="-1032" y="-48"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Curriculum.png" width="225" height="225"/>
+        <image name="Linkedin.png" width="225" height="225"/>
+        <image name="facebook.png" width="160" height="160"/>
+        <image name="google maps.jpg" width="650" height="350"/>
+        <image name="help wanted alargado.png" width="284" height="178"/>
         <image name="images.jpg" width="284" height="178"/>
+        <image name="perfil.png" width="225" height="225"/>
+        <image name="publicidad.jpeg" width="445" height="113"/>
+        <image name="whatss app.png" width="300" height="168"/>
     </resources>
 </document>

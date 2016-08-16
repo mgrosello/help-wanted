@@ -13,6 +13,8 @@
 		1144AEAA1D62C8ED001E2846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1144AEA81D62C8ED001E2846 /* Main.storyboard */; };
 		1144AEAC1D62C8ED001E2846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1144AEAB1D62C8ED001E2846 /* Assets.xcassets */; };
 		1144AEAF1D62C8ED001E2846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1144AEAD1D62C8ED001E2846 /* LaunchScreen.storyboard */; };
+		11FD02A51D63377000ECACF1 /* Sketch 3.7.zip in Resources */ = {isa = PBXBuildFile; fileRef = 11FD02A41D63377000ECACF1 /* Sketch 3.7.zip */; };
+		11FD02A71D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip in Resources */ = {isa = PBXBuildFile; fileRef = 11FD02A61D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1144AEAB1D62C8ED001E2846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1144AEAE1D62C8ED001E2846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1144AEB01D62C8ED001E2846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FD02A41D63377000ECACF1 /* Sketch 3.7.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Sketch 3.7.zip"; sourceTree = "<group>"; };
+		11FD02A61D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "sketch_v3 KG NOYzip.zip"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		1144AE9F1D62C8ED001E2846 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				11FD02A61D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip */,
+				11FD02A41D63377000ECACF1 /* Sketch 3.7.zip */,
 				1144AEA01D62C8ED001E2846 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1144AEAF1D62C8ED001E2846 /* LaunchScreen.storyboard in Resources */,
+				11FD02A51D63377000ECACF1 /* Sketch 3.7.zip in Resources */,
+				11FD02A71D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip in Resources */,
 				1144AEAC1D62C8ED001E2846 /* Assets.xcassets in Resources */,
 				1144AEAA1D62C8ED001E2846 /* Main.storyboard in Resources */,
 			);
@@ -302,6 +310,7 @@
 				1144AEB51D62C8ED001E2846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

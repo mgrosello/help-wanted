@@ -24,7 +24,7 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6y-iS-VHZ">
                                 <rect key="frame" x="150" y="206" width="290" height="187"/>
                                 <connections>
-                                    <segue destination="g9G-mD-k44" kind="show" id="E5d-DT-NSa"/>
+                                    <segue destination="Lce-YN-ua7" kind="show" id="onm-9J-Aak"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -45,68 +45,68 @@
             <point key="canvasLocation" x="-110" y="-48"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="AE7-9C-Bsu">
+        <scene sceneID="LhF-Zn-pgd">
             <objects>
-                <viewController extendedLayoutIncludesOpaqueBars="YES" id="g9G-mD-k44" sceneMemberID="viewController">
+                <viewController id="Lce-YN-ua7" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kDv-SV-fKL"/>
-                        <viewControllerLayoutGuide type="bottom" id="IwS-Bd-nVk"/>
+                        <viewControllerLayoutGuide type="top" id="ZKX-5V-LN0"/>
+                        <viewControllerLayoutGuide type="bottom" id="RG0-tq-IpC"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="iJ9-r8-ddr">
+                    <view key="view" contentMode="scaleToFill" id="FDJ-xZ-zCW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="help wanted alargado.png" translatesAutoresizingMaskIntoConstraints="NO" id="C9Q-uk-W7b">
-                                <rect key="frame" x="20" y="72" width="560" height="56"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="help wanted alargado.png" translatesAutoresizingMaskIntoConstraints="NO" id="rgG-7L-bvO">
+                                <rect key="frame" x="20" y="72" width="560" height="86"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="nRg-kZ-FXY"/>
-                                    <constraint firstAttribute="height" constant="56" id="yOK-nu-SEd"/>
+                                    <constraint firstAttribute="width" constant="300" id="490-lo-EeE"/>
+                                    <constraint firstAttribute="height" constant="86" id="uGD-9X-3tR"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="google maps.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RA8-Jd-vI4">
-                                <rect key="frame" x="98" y="136" width="482" height="400"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="publicidad.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="QQr-1V-nmP">
+                                <rect key="frame" x="20" y="523" width="560" height="69"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="nqX-cB-rsC"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="375" id="pcp-xx-S3r"/>
+                                    <constraint firstAttribute="width" constant="300" id="KBi-4N-0hQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="dWt-ht-Vwe"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="publicidad.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wwL-01-VOH">
-                                <rect key="frame" x="20" y="544" width="560" height="56"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jc3-DK-nKm">
+                                <rect key="frame" x="20" y="166" width="77" height="62"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Curriculum.png" translatesAutoresizingMaskIntoConstraints="NO" id="bgA-tB-cA2">
+                                <rect key="frame" x="20" y="236" width="77" height="67"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Linkedin.png" translatesAutoresizingMaskIntoConstraints="NO" id="HzZ-L7-3xt">
+                                <rect key="frame" x="20" y="311" width="77" height="64"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="H8R-ae-ZrU">
+                                <rect key="frame" x="20" y="383" width="77" height="56"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whatss app.png" translatesAutoresizingMaskIntoConstraints="NO" id="apy-jf-tJh">
+                                <rect key="frame" x="20" y="447" width="77" height="57"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Jmi-NT-UsF">
+                                <rect key="frame" x="105" y="166" width="475" height="332"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="3cD-8l-m5o"/>
-                                    <constraint firstAttribute="height" constant="35" id="j0Z-hZ-SkS"/>
+                                    <constraint firstAttribute="width" constant="200" id="z5g-oh-ptc"/>
                                 </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="WcS-m3-zvK">
-                                <rect key="frame" x="20" y="136" width="70" height="56"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Curriculum.png" translatesAutoresizingMaskIntoConstraints="NO" id="r2g-on-Csb">
-                                <rect key="frame" x="20" y="210" width="70" height="67"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="jgx-0g-eL8">
-                                <rect key="frame" x="20" y="305" width="70" height="61"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whatss app.png" translatesAutoresizingMaskIntoConstraints="NO" id="xhI-2s-Dp8">
-                                <rect key="frame" x="20" y="478" width="70" height="46"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Linkedin.png" translatesAutoresizingMaskIntoConstraints="NO" id="nqB-OB-D3f">
-                                <rect key="frame" x="20" y="395" width="70" height="61"/>
-                            </imageView>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="IwS-Bd-nVk" firstAttribute="top" secondItem="wwL-01-VOH" secondAttribute="bottom" constant="5" id="1Xt-6V-lPk"/>
-                            <constraint firstItem="C9Q-uk-W7b" firstAttribute="centerX" secondItem="iJ9-r8-ddr" secondAttribute="centerX" id="TKn-lt-gaR"/>
-                            <constraint firstAttribute="trailing" secondItem="RA8-Jd-vI4" secondAttribute="trailing" constant="19" id="VlB-d4-9Ml"/>
-                            <constraint firstItem="wwL-01-VOH" firstAttribute="centerX" secondItem="iJ9-r8-ddr" secondAttribute="centerX" id="X2V-in-bf8"/>
-                            <constraint firstItem="RA8-Jd-vI4" firstAttribute="top" secondItem="C9Q-uk-W7b" secondAttribute="bottom" constant="20" id="hu0-Wn-xQT"/>
-                            <constraint firstItem="C9Q-uk-W7b" firstAttribute="top" secondItem="kDv-SV-fKL" secondAttribute="bottom" constant="5" id="iaz-30-vaq"/>
+                            <constraint firstItem="rgG-7L-bvO" firstAttribute="top" secondItem="ZKX-5V-LN0" secondAttribute="bottom" constant="5" id="AGp-P1-FvM"/>
+                            <constraint firstItem="QQr-1V-nmP" firstAttribute="centerX" secondItem="FDJ-xZ-zCW" secondAttribute="centerX" id="BAW-20-WWW"/>
+                            <constraint firstItem="QQr-1V-nmP" firstAttribute="top" secondItem="Jmi-NT-UsF" secondAttribute="bottom" constant="5" id="DBD-nT-FQh"/>
+                            <constraint firstItem="RG0-tq-IpC" firstAttribute="top" secondItem="QQr-1V-nmP" secondAttribute="bottom" constant="5" id="YIC-WB-q5K"/>
+                            <constraint firstItem="Jmi-NT-UsF" firstAttribute="trailing" secondItem="FDJ-xZ-zCW" secondAttribute="trailingMargin" constant="5" id="cJ2-y7-15W"/>
+                            <constraint firstItem="Jmi-NT-UsF" firstAttribute="top" secondItem="rgG-7L-bvO" secondAttribute="bottom" constant="5" id="dnU-Nu-bir"/>
+                            <constraint firstItem="rgG-7L-bvO" firstAttribute="centerX" secondItem="FDJ-xZ-zCW" secondAttribute="centerX" id="sz1-cI-lem"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YVR-zH-JPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EmP-lq-ue5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="-48"/>
+            <point key="canvasLocation" x="722" y="-48"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lsr-OS-ALQ">
@@ -131,7 +131,6 @@
         <image name="Curriculum.png" width="225" height="225"/>
         <image name="Linkedin.png" width="225" height="225"/>
         <image name="facebook.png" width="160" height="160"/>
-        <image name="google maps.jpg" width="650" height="350"/>
         <image name="help wanted alargado.png" width="284" height="178"/>
         <image name="images.jpg" width="284" height="178"/>
         <image name="perfil.png" width="225" height="225"/>

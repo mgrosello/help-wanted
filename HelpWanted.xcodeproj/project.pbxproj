@@ -16,6 +16,7 @@
 		11552C201D638ACE00F6B51F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11552C1F1D638ACE00F6B51F /* MapKit.framework */; };
 		11FD02A51D63377000ECACF1 /* Sketch 3.7.zip in Resources */ = {isa = PBXBuildFile; fileRef = 11FD02A41D63377000ECACF1 /* Sketch 3.7.zip */; };
 		11FD02A71D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip in Resources */ = {isa = PBXBuildFile; fileRef = 11FD02A61D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip */; };
+		1F106D871D63B28700758153 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F106D861D63B28700758153 /* ViewController2.m */; };
 		1FE482631D633AD5009A06A1 /* Curriculum.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE482591D633AD5009A06A1 /* Curriculum.png */; };
 		1FE482641D633AD5009A06A1 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4825A1D633AD5009A06A1 /* facebook.png */; };
 		1FE482651D633AD5009A06A1 /* Fondo negro.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE4825B1D633AD5009A06A1 /* Fondo negro.png */; };
@@ -42,6 +43,8 @@
 		11552C1F1D638ACE00F6B51F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		11FD02A41D63377000ECACF1 /* Sketch 3.7.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Sketch 3.7.zip"; sourceTree = "<group>"; };
 		11FD02A61D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "sketch_v3 KG NOYzip.zip"; sourceTree = "<group>"; };
+		1F106D851D63B28700758153 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		1F106D861D63B28700758153 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		1FE482591D633AD5009A06A1 /* Curriculum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Curriculum.png; sourceTree = "<group>"; };
 		1FE4825A1D633AD5009A06A1 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		1FE4825B1D633AD5009A06A1 /* Fondo negro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fondo negro.png"; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 		1144AE931D62C8ED001E2846 = {
 			isa = PBXGroup;
 			children = (
+				1F106D851D63B28700758153 /* ViewController2.h */,
+				1F106D861D63B28700758153 /* ViewController2.m */,
 				11552C1F1D638ACE00F6B51F /* MapKit.framework */,
 				1144AE9E1D62C8ED001E2846 /* HelpWanted */,
 				1144AE9D1D62C8ED001E2846 /* Products */,
@@ -210,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1144AEA71D62C8ED001E2846 /* ViewController.m in Sources */,
+				1F106D871D63B28700758153 /* ViewController2.m in Sources */,
 				1144AEA41D62C8ED001E2846 /* AppDelegate.m in Sources */,
 				1144AEA11D62C8ED001E2846 /* main.m in Sources */,
 			);

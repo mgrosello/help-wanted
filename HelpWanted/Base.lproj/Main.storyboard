@@ -20,93 +20,118 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dOF-NK-xSe">
                                 <rect key="frame" x="155" y="206" width="290" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="187" id="L1b-8g-M8B"/>
+                                    <constraint firstAttribute="width" constant="290" id="e36-yf-fb4"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6y-iS-VHZ">
                                 <rect key="frame" x="150" y="206" width="290" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="187" id="JQU-oC-0Dq"/>
+                                    <constraint firstAttribute="width" constant="290" id="cvI-sj-ccX"/>
+                                </constraints>
                                 <connections>
-                                    <segue destination="Lce-YN-ua7" kind="show" id="onm-9J-Aak"/>
+                                    <segue destination="lWm-I1-ArO" kind="show" id="ZtJ-pD-KMM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="dOF-NK-xSe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="5HE-aH-xBs"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dOF-NK-xSe" secondAttribute="trailing" constant="5" id="7nq-p9-bEO"/>
-                            <constraint firstItem="Y6y-iS-VHZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="CBN-YT-cXw"/>
-                            <constraint firstItem="Y6y-iS-VHZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="275" id="U83-bp-BM8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Y6y-iS-VHZ" secondAttribute="trailing" constant="5" id="jNO-7Z-kMp"/>
-                            <constraint firstItem="dOF-NK-xSe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="190" id="qFh-Qo-L98"/>
+                            <constraint firstItem="dOF-NK-xSe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="HRm-qe-pKG"/>
+                            <constraint firstItem="Y6y-iS-VHZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="WJj-En-sdy"/>
+                            <constraint firstItem="Y6y-iS-VHZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y3u-BS-W9J"/>
+                            <constraint firstItem="dOF-NK-xSe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cYO-oc-NEk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wDf-NO-RTe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-110" y="-48"/>
+            <point key="canvasLocation" x="-806" y="-48"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="LhF-Zn-pgd">
+        <scene sceneID="z84-Zr-nSN">
             <objects>
-                <viewController id="Lce-YN-ua7" sceneMemberID="viewController">
+                <viewController id="lWm-I1-ArO" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZKX-5V-LN0"/>
-                        <viewControllerLayoutGuide type="bottom" id="RG0-tq-IpC"/>
+                        <viewControllerLayoutGuide type="top" id="aDb-9S-cCv"/>
+                        <viewControllerLayoutGuide type="bottom" id="FY9-6C-iLO"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FDJ-xZ-zCW">
+                    <view key="view" contentMode="scaleToFill" id="Vo3-l5-J6j">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="help wanted alargado.png" translatesAutoresizingMaskIntoConstraints="NO" id="rgG-7L-bvO">
-                                <rect key="frame" x="20" y="72" width="560" height="86"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="help wanted alargado.png" translatesAutoresizingMaskIntoConstraints="NO" id="vh2-1e-TBt">
+                                <rect key="frame" x="20" y="72" width="560" height="76"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="490-lo-EeE"/>
-                                    <constraint firstAttribute="height" constant="86" id="uGD-9X-3tR"/>
+                                    <constraint firstAttribute="height" constant="45" id="tWJ-5T-Qsd"/>
                                 </constraints>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="25" y="69" width="360" height="45"/>
+                                </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="publicidad.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="QQr-1V-nmP">
-                                <rect key="frame" x="20" y="523" width="560" height="69"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7Eu-3a-cZt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.26601268550000001" blue="0.33708834009999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="KBi-4N-0hQ"/>
-                                    <constraint firstAttribute="height" constant="30" id="dWt-ht-Vwe"/>
+                                    <constraint firstAttribute="height" constant="314" id="knG-Uc-9RT"/>
                                 </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jc3-DK-nKm">
-                                <rect key="frame" x="20" y="166" width="77" height="62"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Curriculum.png" translatesAutoresizingMaskIntoConstraints="NO" id="bgA-tB-cA2">
-                                <rect key="frame" x="20" y="236" width="77" height="67"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Linkedin.png" translatesAutoresizingMaskIntoConstraints="NO" id="HzZ-L7-3xt">
-                                <rect key="frame" x="20" y="311" width="77" height="64"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook.png" translatesAutoresizingMaskIntoConstraints="NO" id="H8R-ae-ZrU">
-                                <rect key="frame" x="20" y="383" width="77" height="56"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whatss app.png" translatesAutoresizingMaskIntoConstraints="NO" id="apy-jf-tJh">
-                                <rect key="frame" x="20" y="447" width="77" height="57"/>
-                            </imageView>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Jmi-NT-UsF">
-                                <rect key="frame" x="105" y="166" width="475" height="332"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="z5g-oh-ptc"/>
-                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="knG-Uc-9RT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="25" y="122" width="360" height="314"/>
+                                    <mask key="constraints">
+                                        <include reference="knG-Uc-9RT"/>
+                                    </mask>
+                                </variation>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="rgG-7L-bvO" firstAttribute="top" secondItem="ZKX-5V-LN0" secondAttribute="bottom" constant="5" id="AGp-P1-FvM"/>
-                            <constraint firstItem="QQr-1V-nmP" firstAttribute="centerX" secondItem="FDJ-xZ-zCW" secondAttribute="centerX" id="BAW-20-WWW"/>
-                            <constraint firstItem="QQr-1V-nmP" firstAttribute="top" secondItem="Jmi-NT-UsF" secondAttribute="bottom" constant="5" id="DBD-nT-FQh"/>
-                            <constraint firstItem="RG0-tq-IpC" firstAttribute="top" secondItem="QQr-1V-nmP" secondAttribute="bottom" constant="5" id="YIC-WB-q5K"/>
-                            <constraint firstItem="Jmi-NT-UsF" firstAttribute="trailing" secondItem="FDJ-xZ-zCW" secondAttribute="trailingMargin" constant="5" id="cJ2-y7-15W"/>
-                            <constraint firstItem="Jmi-NT-UsF" firstAttribute="top" secondItem="rgG-7L-bvO" secondAttribute="bottom" constant="5" id="dnU-Nu-bir"/>
-                            <constraint firstItem="rgG-7L-bvO" firstAttribute="centerX" secondItem="FDJ-xZ-zCW" secondAttribute="centerX" id="sz1-cI-lem"/>
+                            <constraint firstItem="7Eu-3a-cZt" firstAttribute="leading" secondItem="Vo3-l5-J6j" secondAttribute="leadingMargin" id="30w-yb-1UA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7Eu-3a-cZt" secondAttribute="trailing" id="GGv-fw-opC"/>
+                            <constraint firstItem="vh2-1e-TBt" firstAttribute="leading" secondItem="Vo3-l5-J6j" secondAttribute="leadingMargin" id="P2A-e1-ma2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vh2-1e-TBt" secondAttribute="trailing" id="V31-uk-miO"/>
+                            <constraint firstItem="7Eu-3a-cZt" firstAttribute="top" secondItem="vh2-1e-TBt" secondAttribute="bottom" constant="5" id="War-Ui-ueL"/>
+                            <constraint firstItem="7Eu-3a-cZt" firstAttribute="centerX" secondItem="Vo3-l5-J6j" secondAttribute="centerX" id="iAy-es-med"/>
+                            <constraint firstItem="vh2-1e-TBt" firstAttribute="centerX" secondItem="Vo3-l5-J6j" secondAttribute="centerX" id="t8c-f6-4Pz"/>
+                            <constraint firstItem="vh2-1e-TBt" firstAttribute="top" secondItem="aDb-9S-cCv" secondAttribute="bottom" constant="5" id="v2t-zC-fnh"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7Eu-3a-cZt"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="P2A-e1-ma2"/>
+                                <exclude reference="V31-uk-miO"/>
+                                <exclude reference="30w-yb-1UA"/>
+                                <exclude reference="GGv-fw-opC"/>
+                                <exclude reference="War-Ui-ueL"/>
+                                <exclude reference="iAy-es-med"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="7Eu-3a-cZt"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="P2A-e1-ma2"/>
+                                <include reference="V31-uk-miO"/>
+                                <include reference="30w-yb-1UA"/>
+                                <include reference="GGv-fw-opC"/>
+                                <include reference="War-Ui-ueL"/>
+                                <include reference="iAy-es-med"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EmP-lq-ue5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="73n-Yt-kMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="722" y="-48"/>
+            <point key="canvasLocation" x="-114" y="-48"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lsr-OS-ALQ">
@@ -124,17 +149,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yX-7z-7TT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1032" y="-48"/>
+            <point key="canvasLocation" x="-1496" y="-48"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Curriculum.png" width="225" height="225"/>
-        <image name="Linkedin.png" width="225" height="225"/>
-        <image name="facebook.png" width="160" height="160"/>
         <image name="help wanted alargado.png" width="284" height="178"/>
         <image name="images.jpg" width="284" height="178"/>
-        <image name="perfil.png" width="225" height="225"/>
-        <image name="publicidad.jpeg" width="445" height="113"/>
-        <image name="whatss app.png" width="300" height="168"/>
     </resources>
 </document>

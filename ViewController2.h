@@ -8,10 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/Corelocation.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController2 : UIViewController {
+@interface ViewController2 : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate> {
 
     CLLocationManager *locationManager;
+    
+    IBOutlet MKMapView *mapa;
+    
 }
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error;
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations;
+
 
 @end

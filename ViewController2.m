@@ -7,6 +7,7 @@
 //
 
 #import "ViewController2.h"
+#import <MapKit/MapKit.h>
 
 
 @interface ViewController2 ()
@@ -23,7 +24,13 @@
     locationManager.distanceFilter = kCLDistanceFilterNone;
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     locationManager.delegate = self;
+    if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+        [locationManager requestWhenInUseAuthorization];
+    }
     [locationManager startUpdatingLocation];
+    [mapa setShowsUserLocation:YES];
+    NSLog(@"LocationManager inicializado");
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,7 +44,19 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
     CLLocation* location = (CLLocation*)locations.lastObject;
+    CLLocationCoordinate2D loc = [location coordinate];
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(loc, 250, 250);
+    [mapa setRegion:region animated:YES];
     NSLog(@"Longitude: %f, Latitude: %f", location.coordinate.longitude, location.coordinate.latitude);
+}
+
+- (void)mapView:(MKMapView *)mapView
+    didUpdateUserLocation:(nonnull MKUserLocation *)userLocation
+{
+    NSLog(@"Aquí debemos hacer zoom");
+    CLLocationCoordinate2D loc = [userLocation coordinate];
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(loc, 250, 250);
+    [mapa setRegion:region animated:YES];
 }
 
 /*

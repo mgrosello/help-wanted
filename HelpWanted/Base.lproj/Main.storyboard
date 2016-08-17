@@ -88,66 +88,126 @@
                                     </mask>
                                 </variation>
                             </mapView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="BWU-Gl-wAn">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="441" width="175" height="91"/>
-                                </variation>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Curriculum.png" translatesAutoresizingMaskIntoConstraints="NO" id="am4-UZ-ElT">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="H3o-WH-BdF"/>
+                                    <constraint firstAttribute="height" constant="75" id="Pkt-po-yxi"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="H3o-WH-BdF"/>
+                                        <exclude reference="Pkt-po-yxi"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="203" y="441" width="177" height="91"/>
+                                    <mask key="constraints">
+                                        <include reference="H3o-WH-BdF"/>
+                                        <include reference="Pkt-po-yxi"/>
+                                    </mask>
                                 </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="publicidad.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="KVN-lP-tOO">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="gTT-ra-AvF"/>
+                                    <constraint firstAttribute="height" constant="30" id="wod-Wu-ZGr"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gTT-ra-AvF"/>
+                                        <exclude reference="wod-Wu-ZGr"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="20" y="540" width="360" height="52"/>
+                                    <mask key="constraints">
+                                        <include reference="gTT-ra-AvF"/>
+                                        <include reference="wod-Wu-ZGr"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="BWU-Gl-wAn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="JIL-8f-b6K"/>
+                                    <constraint firstAttribute="width" constant="125" id="iRo-2B-bNm"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="JIL-8f-b6K"/>
+                                        <exclude reference="iRo-2B-bNm"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="441" width="175" height="91"/>
+                                    <mask key="constraints">
+                                        <include reference="JIL-8f-b6K"/>
+                                        <include reference="iRo-2B-bNm"/>
+                                    </mask>
                                 </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="KVN-lP-tOO" firstAttribute="centerX" secondItem="Vo3-l5-J6j" secondAttribute="centerX" id="0PY-7D-Lwb"/>
                             <constraint firstItem="7Eu-3a-cZt" firstAttribute="leading" secondItem="Vo3-l5-J6j" secondAttribute="leadingMargin" id="30w-yb-1UA"/>
+                            <constraint firstItem="KVN-lP-tOO" firstAttribute="top" secondItem="am4-UZ-ElT" secondAttribute="bottom" constant="10" id="4gD-jM-JNh"/>
+                            <constraint firstAttribute="trailing" secondItem="am4-UZ-ElT" secondAttribute="trailing" constant="18" id="8iN-03-O1T"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7Eu-3a-cZt" secondAttribute="trailing" id="GGv-fw-opC"/>
                             <constraint firstItem="vh2-1e-TBt" firstAttribute="leading" secondItem="Vo3-l5-J6j" secondAttribute="leadingMargin" id="P2A-e1-ma2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vh2-1e-TBt" secondAttribute="trailing" id="V31-uk-miO"/>
                             <constraint firstItem="7Eu-3a-cZt" firstAttribute="top" secondItem="vh2-1e-TBt" secondAttribute="bottom" constant="5" id="War-Ui-ueL"/>
                             <constraint firstItem="7Eu-3a-cZt" firstAttribute="centerX" secondItem="Vo3-l5-J6j" secondAttribute="centerX" id="iAy-es-med"/>
+                            <constraint firstItem="FY9-6C-iLO" firstAttribute="top" secondItem="KVN-lP-tOO" secondAttribute="bottom" constant="5" id="kBu-yb-EXD"/>
+                            <constraint firstItem="BWU-Gl-wAn" firstAttribute="leading" secondItem="Vo3-l5-J6j" secondAttribute="leading" constant="18" id="rnL-UU-eNm"/>
                             <constraint firstItem="vh2-1e-TBt" firstAttribute="centerX" secondItem="Vo3-l5-J6j" secondAttribute="centerX" id="t8c-f6-4Pz"/>
                             <constraint firstItem="vh2-1e-TBt" firstAttribute="top" secondItem="aDb-9S-cCv" secondAttribute="bottom" constant="5" id="v2t-zC-fnh"/>
+                            <constraint firstItem="KVN-lP-tOO" firstAttribute="top" secondItem="BWU-Gl-wAn" secondAttribute="bottom" constant="10" id="zzX-Cm-noF"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="7Eu-3a-cZt"/>
-                                <exclude reference="BWU-Gl-wAn"/>
                                 <exclude reference="am4-UZ-ElT"/>
                                 <exclude reference="KVN-lP-tOO"/>
+                                <exclude reference="BWU-Gl-wAn"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="P2A-e1-ma2"/>
+                                <exclude reference="V31-uk-miO"/>
                                 <exclude reference="30w-yb-1UA"/>
                                 <exclude reference="GGv-fw-opC"/>
                                 <exclude reference="War-Ui-ueL"/>
                                 <exclude reference="iAy-es-med"/>
-                                <exclude reference="P2A-e1-ma2"/>
-                                <exclude reference="V31-uk-miO"/>
+                                <exclude reference="rnL-UU-eNm"/>
+                                <exclude reference="8iN-03-O1T"/>
+                                <exclude reference="0PY-7D-Lwb"/>
+                                <exclude reference="4gD-jM-JNh"/>
+                                <exclude reference="zzX-Cm-noF"/>
+                                <exclude reference="kBu-yb-EXD"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="7Eu-3a-cZt"/>
-                                <include reference="BWU-Gl-wAn"/>
                                 <include reference="am4-UZ-ElT"/>
                                 <include reference="KVN-lP-tOO"/>
+                                <include reference="BWU-Gl-wAn"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="P2A-e1-ma2"/>
+                                <include reference="V31-uk-miO"/>
                                 <include reference="30w-yb-1UA"/>
                                 <include reference="GGv-fw-opC"/>
                                 <include reference="War-Ui-ueL"/>
                                 <include reference="iAy-es-med"/>
-                                <include reference="P2A-e1-ma2"/>
-                                <include reference="V31-uk-miO"/>
+                                <include reference="rnL-UU-eNm"/>
+                                <include reference="8iN-03-O1T"/>
+                                <include reference="0PY-7D-Lwb"/>
+                                <include reference="4gD-jM-JNh"/>
+                                <include reference="zzX-Cm-noF"/>
+                                <include reference="kBu-yb-EXD"/>
                             </mask>
                         </variation>
                     </view>

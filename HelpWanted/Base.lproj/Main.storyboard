@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MKV-hC-eMs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MKV-hC-eMs">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -88,6 +88,24 @@
                                     </mask>
                                 </variation>
                             </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="perfil.png" translatesAutoresizingMaskIntoConstraints="NO" id="BWU-Gl-wAn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="441" width="175" height="91"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Curriculum.png" translatesAutoresizingMaskIntoConstraints="NO" id="am4-UZ-ElT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="203" y="441" width="177" height="91"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="publicidad.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="KVN-lP-tOO">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="540" width="360" height="52"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -103,6 +121,9 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="7Eu-3a-cZt"/>
+                                <exclude reference="BWU-Gl-wAn"/>
+                                <exclude reference="am4-UZ-ElT"/>
+                                <exclude reference="KVN-lP-tOO"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="30w-yb-1UA"/>
@@ -116,6 +137,9 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="7Eu-3a-cZt"/>
+                                <include reference="BWU-Gl-wAn"/>
+                                <include reference="am4-UZ-ElT"/>
+                                <include reference="KVN-lP-tOO"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="30w-yb-1UA"/>
@@ -155,7 +179,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Curriculum.png" width="225" height="225"/>
         <image name="help wanted alargado.png" width="284" height="178"/>
         <image name="images.jpg" width="284" height="178"/>
+        <image name="perfil.png" width="225" height="225"/>
+        <image name="publicidad.jpeg" width="445" height="113"/>
     </resources>
 </document>

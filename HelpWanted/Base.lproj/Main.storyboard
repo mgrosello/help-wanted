@@ -7,50 +7,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Inicio-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController title="Inicio" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dOF-NK-xSe">
-                                <rect key="frame" x="155" y="206" width="290" height="187"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="187" id="L1b-8g-M8B"/>
-                                    <constraint firstAttribute="width" constant="290" id="e36-yf-fb4"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6y-iS-VHZ">
-                                <rect key="frame" x="150" y="206" width="290" height="187"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="187" id="JQU-oC-0Dq"/>
-                                    <constraint firstAttribute="width" constant="290" id="cvI-sj-ccX"/>
-                                </constraints>
-                                <connections>
-                                    <segue destination="lWm-I1-ArO" kind="show" id="ZtJ-pD-KMM"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="dOF-NK-xSe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="HRm-qe-pKG"/>
-                            <constraint firstItem="Y6y-iS-VHZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="WJj-En-sdy"/>
-                            <constraint firstItem="Y6y-iS-VHZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y3u-BS-W9J"/>
-                            <constraint firstItem="dOF-NK-xSe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cYO-oc-NEk"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="wDf-NO-RTe"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-806" y="-48"/>
-        </scene>
         <!--View Controller2-->
         <scene sceneID="z84-Zr-nSN">
             <objects>
@@ -347,13 +303,11 @@
                         <viewControllerLayoutGuide type="bottom" id="XyV-73-O5C"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LVF-gM-ufc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="captura-de-pantalla-de-2012-09-20-215018.png" translatesAutoresizingMaskIntoConstraints="NO" id="6XI-di-9Zk">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="72" width="360" height="520"/>
-                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -370,12 +324,12 @@
                                 <exclude reference="6XI-di-9Zk"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="9O4-v1-FDo"/>
                                 <exclude reference="DZN-bd-eJh"/>
                                 <exclude reference="clU-W6-xUe"/>
                                 <exclude reference="gdM-uo-bVH"/>
                                 <exclude reference="tQZ-GA-VD0"/>
                                 <exclude reference="z5L-Au-XH1"/>
-                                <exclude reference="9O4-v1-FDo"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -383,12 +337,12 @@
                                 <include reference="6XI-di-9Zk"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="9O4-v1-FDo"/>
                                 <include reference="DZN-bd-eJh"/>
                                 <include reference="clU-W6-xUe"/>
                                 <include reference="gdM-uo-bVH"/>
                                 <include reference="tQZ-GA-VD0"/>
                                 <include reference="z5L-Au-XH1"/>
-                                <include reference="9O4-v1-FDo"/>
                             </mask>
                         </variation>
                     </view>
@@ -406,13 +360,11 @@
                         <viewControllerLayoutGuide type="bottom" id="ruY-d9-Hu0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9hM-Va-e0p">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images32.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jNY-qj-lRz">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="72" width="360" height="520"/>
-                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -429,12 +381,12 @@
                                 <exclude reference="jNY-qj-lRz"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="0cc-nV-bty"/>
                                 <exclude reference="8f5-dW-Rme"/>
                                 <exclude reference="C6L-AG-URp"/>
                                 <exclude reference="GT3-mg-mDH"/>
                                 <exclude reference="NEC-17-3TB"/>
                                 <exclude reference="lPf-dI-RP3"/>
-                                <exclude reference="0cc-nV-bty"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -442,12 +394,12 @@
                                 <include reference="jNY-qj-lRz"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="0cc-nV-bty"/>
                                 <include reference="8f5-dW-Rme"/>
                                 <include reference="C6L-AG-URp"/>
                                 <include reference="GT3-mg-mDH"/>
                                 <include reference="NEC-17-3TB"/>
                                 <include reference="lPf-dI-RP3"/>
-                                <include reference="0cc-nV-bty"/>
                             </mask>
                         </variation>
                     </view>
@@ -465,13 +417,11 @@
                         <viewControllerLayoutGuide type="bottom" id="bDi-0w-M1Z"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VVi-ey-3Ho">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0d09902e4ac7925511f5340c964f6610.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RT9-eF-dE6">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="72" width="360" height="520"/>
-                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -488,12 +438,12 @@
                                 <exclude reference="RT9-eF-dE6"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="Me6-Z3-Llr"/>
                                 <exclude reference="33p-Xw-5q7"/>
                                 <exclude reference="3YT-tJ-sAK"/>
                                 <exclude reference="UoN-n2-Bg6"/>
                                 <exclude reference="oeo-EA-U1h"/>
                                 <exclude reference="zfm-QF-uyU"/>
-                                <exclude reference="Me6-Z3-Llr"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -501,12 +451,12 @@
                                 <include reference="RT9-eF-dE6"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="Me6-Z3-Llr"/>
                                 <include reference="33p-Xw-5q7"/>
                                 <include reference="3YT-tJ-sAK"/>
                                 <include reference="UoN-n2-Bg6"/>
                                 <include reference="oeo-EA-U1h"/>
                                 <include reference="zfm-QF-uyU"/>
-                                <include reference="Me6-Z3-Llr"/>
                             </mask>
                         </variation>
                     </view>
@@ -706,9 +656,6 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="AMh-T6-Md9"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yX-7z-7TT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

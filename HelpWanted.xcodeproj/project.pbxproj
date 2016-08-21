@@ -48,6 +48,7 @@
 		11FD02A61D63377A00ECACF1 /* sketch_v3 KG NOYzip.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "sketch_v3 KG NOYzip.zip"; sourceTree = "<group>"; };
 		1F106D851D63B28700758153 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController2.h; path = ../ViewController2.h; sourceTree = "<group>"; };
 		1F106D861D63B28700758153 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController2.m; path = ../ViewController2.m; sourceTree = "<group>"; };
+		1F8DBF001D69F00A00F4512A /* Logo Icono Help Wanted.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Logo Icono Help Wanted.sketch"; sourceTree = "<group>"; };
 		1FE482591D633AD5009A06A1 /* Curriculum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Curriculum.png; sourceTree = "<group>"; };
 		1FE4825A1D633AD5009A06A1 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		1FE4825B1D633AD5009A06A1 /* Fondo negro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fondo negro.png"; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 		1FE482581D633AC2009A06A1 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				1F8DBF001D69F00A00F4512A /* Logo Icono Help Wanted.sketch */,
 				1FF7C24B1D68F23100A0A6FF /* captura-de-pantalla-de-2012-09-20-215018.png */,
 				1FF7C2491D68F0C900A0A6FF /* images32.jpg */,
 				1FF7C2471D68EEAA00A0A6FF /* 0d09902e4ac7925511f5340c964f6610.jpg */,

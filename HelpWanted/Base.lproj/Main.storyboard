@@ -7,6 +7,53 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Inicio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController title="Inicio" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="images.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dOF-NK-xSe">
+                                <rect key="frame" x="155" y="206" width="290" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="187" id="L1b-8g-M8B"/>
+                                    <constraint firstAttribute="width" constant="290" id="e36-yf-fb4"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6y-iS-VHZ">
+                                <rect key="frame" x="150" y="206" width="290" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="187" id="JQU-oC-0Dq"/>
+                                    <constraint firstAttribute="width" constant="290" id="cvI-sj-ccX"/>
+                                </constraints>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="55" y="231" width="290" height="187"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lWm-I1-ArO" kind="show" id="ZtJ-pD-KMM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dOF-NK-xSe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="HRm-qe-pKG"/>
+                            <constraint firstItem="Y6y-iS-VHZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="WJj-En-sdy"/>
+                            <constraint firstItem="Y6y-iS-VHZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y3u-BS-W9J"/>
+                            <constraint firstItem="dOF-NK-xSe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cYO-oc-NEk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="wDf-NO-RTe"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-806" y="-48"/>
+        </scene>
         <!--View Controller2-->
         <scene sceneID="z84-Zr-nSN">
             <objects>
@@ -656,6 +703,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="AMh-T6-Md9"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yX-7z-7TT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

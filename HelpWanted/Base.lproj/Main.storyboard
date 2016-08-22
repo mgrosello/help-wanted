@@ -49,6 +49,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wDf-NO-RTe"/>
+                    <connections>
+                        <outlet property="helpWantedEntrada" destination="dOF-NK-xSe" id="WzJ-ot-nv8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

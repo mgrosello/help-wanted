@@ -559,7 +559,8 @@
                                         <exclude reference="GUd-nW-u0B"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact">
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="150" y="269" width="100" height="62"/>
                                     <mask key="constraints">
                                         <include reference="GUd-nW-u0B"/>
                                     </mask>
@@ -578,7 +579,8 @@
                                         <exclude reference="R1l-t5-YMT"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact">
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="130" y="336" width="140" height="30"/>
                                     <mask key="constraints">
                                         <include reference="R1l-t5-YMT"/>
                                     </mask>
